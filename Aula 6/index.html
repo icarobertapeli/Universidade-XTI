@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+        body {
+            background-color: ghostwhite;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        function ligar() {
+            document.getElementById("lampada").src = "Imagens/ligada.png"
+            var nome;//Indefinido
+            nome = null;//null
+            nome = 3 * "pessoas";//NaN
+            nome = 2 + Infinity;//Infinito -> valores maiores que 1.7976931348623157e+309
+            nome = "Íca\nro";//Escape de String
+            nome = 1.7976931348623157e+309;
+
+            const HORAS_DO_DIA = 24;
+            
+            alert(nome);
+        }
+    </script>
+</head>
+
+<body>
+    <img id="lampada" onclick="ligar()" src="Imagens/desligada.png">
+</body>
+
+</html>
