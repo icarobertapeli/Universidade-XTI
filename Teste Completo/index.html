@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Lista de Compras</h1>
+    
+    <div>
+        <input type="text" id="item" placeholder="Adicione um item">
+        <select id="prioridade">
+            <option value="baixa">Baixa Prioridade</option>
+            <option value="alta">Alta Prioridade</option>
+        </select>
+        <button id="adicionar">Adicionar Item</button>
+    </div>
+    
+    <ul id="lista"></ul>
+    
+    <div id="sucesso" class="sucesso">Item adicionado com sucesso!</div>
+    
+    <button id="limpar">Limpar Lista</button>
+    
+    <div>Quantidade de Itens: <span id="contador">0</span></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
